@@ -81,7 +81,7 @@ export default function Home() {
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto deleniti provident enim tempore distinctio obcaecati ipsam amet magnam accusantium? Expedita ipsa suscipit impedit obcaecati vitae repudiandae deserunt corporis. Eius et minus nisi facilis, rem doloremque non laborum sed vero iusto iure ad neque iste molestiae delectus amet id eaque deleniti voluptatem dicta? Qui facilis neque quam, itaque eum voluptatibus aspernatur assumenda iure sequi impedit excepturi nulla minus quasi, quaerat dicta dolores. Quibusdam maiores temporibus velit quia qui saepe, illum delectus sunt quaerat expedita esse consequatur eos nihil! Error corrupti repellendus voluptatibus odio perferendis in eos quam magnam nihil eveniet?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto deleniti provident enim tempore distinctio obcaecati ipsam amet magnam accusantium? Expedita ipsa suscipit impedit obcaecati vitae repudiandae deserunt corporis. Eius et minus nisi facilis, rem doloremque non laborum sed vero iusto iure ad neque iste molestiae delectus amet id eaque deleniti voluptatem dicta? Qui facilis neque quam, itaque eum voluptatibus aspernatur assumenda iure sequi impedit excepturi nulla minus quasi, quaerat dicta dolores. Quibusdam maiores temporibus velit quia qui saepe, illum delectus sunt quaerat expedita esse consequatur eos nihil! Error corrupti repellendus voluptatibus odio perferendis in eos quam magnam nihil eveniet?</p>
-            <button type="button" class="btn btn-outline-primary">Read More</button>
+            <button type="button" className="btn btn-outline-primary">Read More</button>
           </div>
       </section>
       <section className="card-section mt-5" >
@@ -118,7 +118,20 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <section className="why-choose mt-5">
+      <div className="why-choose-col">
+            <div className="why-choose-heading">
+              <h2>Why Choose</h2>
+              <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto deleniti provident enim tempore distinctio obcaecati ipsam amet magnam accusantium? Expedita ipsa suscipit impedit obcaecati vitae repudiandae deserunt corporis. Eius et minus nisi facilis, rem doloremque non laborum sed vero iusto iure ad neque iste molestiae delectus amet id eaque deleniti voluptatem dicta? Qui facilis neque quam, itaque eum voluptatibus aspernatur assumenda iure sequi impedit excepturi nulla minus quasi, quaerat dicta dolores. Quibusdam maiores temporibus velit quia qui saepe, illum delectus sunt quaerat expedita esse consequatur eos nihil! Error corrupti repellendus voluptatibus odio perferendis in eos quam magnam nihil eveniet?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto deleniti provident enim tempore distinctio obcaecati ipsam amet magnam accusantium? Expedita ipsa suscipit impedit obcaecati vitae repudiandae deserunt corporis. Eius et minus nisi facilis, rem doloremque non laborum sed vero iusto iure ad neque iste molestiae delectus amet id eaque deleniti voluptatem dicta? Qui facilis neque quam, itaque eum voluptatibus aspernatur assumenda iure sequi impedit excepturi nulla minus quasi, quaerat dicta dolores. Quibusdam maiores temporibus velit quia qui saepe, illum delectus sunt quaerat expedita esse consequatur eos nihil! Error corrupti repellendus voluptatibus odio perferendis in eos quam magnam nihil eveniet?</p>
+            <button type="button" className="btn btn-outline-primary">Read More</button>
+          </div>
+          <div className="why-choose-col">
+          <img src={Bike} className="d-block w-100" alt="..."></img>
+          </div>
+      </section>
       <section className='blog-section mb-5 mt-5'>
         <div className="container">
         <h2 className='card-heading mb-5 text-center'>Blog Title</h2>

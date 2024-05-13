@@ -24,3 +24,43 @@
   .about-heading {
     margin-bottom: 20px;
 }
+.about-col img {
+  object-fit: cover !important;
+  width: 100%;
+  height: 100%;
+}
+
+.why-choose {
+  display: flex;
+}
+
+.why-choose-col{
+  width: 50%;
+}
+
+.why-choose-col:nth-child(1) {
+  background:ghostwhite;
+  padding: 30px 25px;
+}
+
+.why-choose-col:nth-child(1) span {
+  font-size: 25px;
+  font-weight: 500;
+}
+.why-choose-col:nth-child(1) h2{
+  font-size: 40px;
+}
+.why-choose-col:nth-child(1) p{
+  text-align: justify;
+}
+.why-choose-col p:nth-child(2){
+  margin-top: 20px;
+}
+.why-choose-heading {
+  margin-bottom: 20px;
+}
+.why-choose-col img {
+  object-fit: cover !important;
+  width: 100%;
+  height: 100%;
+}

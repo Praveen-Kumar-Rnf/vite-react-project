@@ -15,27 +15,27 @@ export default function Footer() {
           <div className="col-md-3 footer-menu">
           <h3>Quick Links</h3>
             <ul>
-            <li><i class="fa fa-angle-right"></i> Home</li>
-              <li><i class="fa fa-angle-right"></i> About Us</li>
-              <li><i class="fa fa-angle-right"></i> Blog</li>
-              <li><i class="fa fa-angle-right"></i> Services</li>
-              <li><i class="fa fa-angle-right"></i> Contact Us</li>
+            <li><i className="fa fa-angle-right"></i> Home</li>
+              <li><i className="fa fa-angle-right"></i> About Us</li>
+              <li><i className="fa fa-angle-right"></i> Blog</li>
+              <li><i className="fa fa-angle-right"></i> Services</li>
+              <li><i className="fa fa-angle-right"></i> Contact Us</li>
             </ul>
           </div>
           <div className="col-md-3 footer-menu">
             <h3>Useful Links</h3>
             <ul>
-              <li><i class="fa fa-angle-right"></i> Home</li>
-              <li><i class="fa fa-angle-right"></i> About Us</li>
-              <li><i class="fa fa-angle-right"></i> Blog</li>
-              <li><i class="fa fa-angle-right"></i> Services</li>
-              <li><i class="fa fa-angle-right"></i> Contact Us</li>
+              <li><i className="fa fa-angle-right"></i> Home</li>
+              <li><i className="fa fa-angle-right"></i> About Us</li>
+              <li><i className="fa fa-angle-right"></i> Blog</li>
+              <li><i className="fa fa-angle-right"></i> Services</li>
+              <li><i className="fa fa-angle-right"></i> Contact Us</li>
             </ul>
           </div>
           <div className="col-md-3 footer-menu">
             <h3>Contact Info</h3>
             <ul>
-              <li><i class="fa fa-phone" aria-hidden="true"></i><br/><a href="tel:567-891-2563">567-891-2563</a></li>
+              <li><i className="fa fa-phone" aria-hidden="true"></i><br/><a href="tel:567-891-2563">567-891-2563</a></li>
               <li><i className="fa fa-envelope"></i><br/><a href="mailto:info@gmail.com">info@gmail.com</a></li>
             </ul>
           </div>
