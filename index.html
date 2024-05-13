@@ -5,6 +5,45 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <style>
+      .container {
+        overflow: hidden;
+        .slider {
+          animation: slidein 30s linear infinite;
+          white-space: nowrap;
+          .logos {
+            width: 100%;
+            display: inline-block;
+            margin: 0px 0;
+            .fab {
+              width: calc(100% / 5);
+              animation: fade-in 0.5s 
+                cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+            }
+          }
+        }
+      }
+
+      @keyframes slidein {
+        from {
+          transform: translate3d(0, 0, 0);
+        }
+        to {
+          transform: translate3d(-100%, 0, 0);
+        }
+      }
+
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>

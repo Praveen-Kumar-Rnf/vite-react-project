@@ -1,0 +1,26 @@
+.about-us {
+    display: flex;
+}
+.about-col {
+    width: 50%;
+}
+.about-col:nth-child(2) {
+    background:ghostwhite;
+    padding: 30px 25px;
+  }
+  .about-col:nth-child(2) span {
+    font-size: 25px;
+    font-weight: 500;
+}
+  .about-col:nth-child(2) h2{
+    font-size: 40px;
+  }
+  .about-col:nth-child(2) p{
+    text-align: justify;
+  }
+  .about-col p:nth-child(1){
+    margin-top: 20px;
+  }
+  .about-heading {
+    margin-bottom: 20px;
+}
